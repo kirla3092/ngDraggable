@@ -84,12 +84,10 @@ angular.module("ngDraggable", [])
         var onTopAnchor = function(newVal, oldVal) {
 					if(angular.isDefined(newVal))
 						_topAnchor = (newVal || null);
-					console.log(_topAnchor);
         };
         var onLeftAnchor = function(newVal, oldVal) {
 					if(angular.isDefined(newVal))
             _leftAnchor = (newVal || null);
-					console.log(_leftAnchor);
         };
 
         var isClickableElement = function(evt) {
